@@ -1,0 +1,118 @@
+.logo{
+    font-size: 30px;
+    font-weight: 300;
+    color:#aaa;
+    font-family: Arial, sans-serif;
+    letter-spacing: -2px;
+
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#location1,#location2,#phone1,#phone2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+#book-online{
+    color:orange;
+    border-color: orange;
+    border-radius: 5px;
+    padding:10px;
+}
+.welcome{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#image{
+    width: 400px;
+    height:400px;
+    flex-grow: 0.5;
+    justify-content: right;
+}
+.home{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    gap:10px;
+}
+
+.home > div{
+    text-align: center;
+    background-color: orange;
+    border-radius: 10px;
+    padding:50px 10px;
+}
+
+.icon{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    color: white;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+}
+
+.para{
+    text-align: center;
+    color: white;
+}
+
+.more{
+    color:white;
+}
+.gridlayout {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 30px;
+
+    background-color: transparent;
+    padding: 20px;
+}
+.ourteam{
+    background-color: orange;
+}
+#heading1,#paragraph{
+    color:white;
+    text-align: center;
+}
+.image{
+    width:100px;
+    height:100px;
+}
+
+.ourteam {
+    background-color: orange;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.gridlayout > div {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
